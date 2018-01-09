@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>title</key>
+		<string>修行</string>
+		<key>icon</key>
+		<string>我的修行</string>
+		<key>icon_select</key>
+		<string>我的修行-选中状态</string>
+		<key>nameVC</key>
+		<string>PricticeVC</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>佛历</string>
+		<key>icon</key>
+		<string>日历-未选中</string>
+		<key>icon_select</key>
+		<string>日历-选中</string>
+		<key>nameVC</key>
+		<string>CalendarVC</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>我的</string>
+		<key>icon</key>
+		<string>莲花禅</string>
+		<key>icon_select</key>
+		<string>莲花禅-选中</string>
+		<key>nameVC</key>
+		<string>MineVC</string>
+	</dict>
+</array>
+</plist>

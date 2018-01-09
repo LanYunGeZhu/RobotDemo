@@ -1,0 +1,113 @@
+//
+//  PrefixHeader.pch
+//  RobotPrictice
+//
+//  Created by SongFeng on 17/3/7.
+//  Copyright © 2017年 宋丰. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "UIBarButtonItem+Extension.h"
+#import "UIView+Extension.h"
+#import "ImgChangeBig.h"
+#import "KeyboardHide.h"
+#import "MJRefresh.h"
+
+#import "MBProgressHUD.h"
+#import "MBProgressHUD+MJ.h"
+
+#import "AppDelegate.h"
+#import "RootViewController.h"
+#import "RootTabBarController.h"
+#import "RootNavigationController.h"
+#import "LoginVC.h"
+#import "PricticeVC.h"
+#import "CalendarVC.h"
+#import "MineVC.h"
+
+#import "PricticeVCCell.h"
+#import <AVFoundation/AVFoundation.h>
+
+#import "RemindVC.h"
+#import "RepositoryVC.h"
+#import "MatinVC.h"
+#import "EvensongVC.h"
+#import "DownloadVC.h"
+
+#import "LGViewController.h"
+#import "LGSublimationView.h"
+#import "LGViewController.h"
+
+#import "PersonMessageVC.h"
+#import "RobotManageVC.h"
+#import "BingdingRobotVC.h"
+#import "CloudManageVC.h"
+#import "SettingsVC.h"
+#import "ModifyPasswordVC.h"
+#import "AboutUsVC.h"
+#import "FeedBackVC.h"
+
+#import "CloudManageCell.h"
+
+#import "BaseButton.h"
+
+#import "PromptTool.h"
+#import "LabelAutolayout.h"
+#import "SFAlertView.h"
+
+#import "SDImageCache.h"
+#import "JCProgressHUD.h"
+
+#import "RemindCell.h"
+#import "ModifyRemindVC.h"
+#import "MultiselectVC2.h"
+#import "MultiselectCell.h"
+
+#import "MatinCell.h"
+#import "MultiselectVC.h"
+
+#import "LabelTool.h"
+#import "ViewTool.h"
+#import "UserInfo.h"
+#import "SFPlayTool.h"
+
+#import "ArrangeDetailVC.h"
+#import "RecordVC.h"
+#import "ManageTempleVC.h"
+#import "SearchTempleVC.h"
+
+#import "UserDTO.h"
+#import "Utils.h"
+#import "NSString+pinyin.h"
+#import "UIViewController+KeyboardHide.h"
+
+#import "XHDatePickerView.h"
+#import "NSDate+Extension.h"
+
+#import "SyncView.h"
+
+
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+// 获取RGB颜色
+#define RGBA(r,g,b,a) [UIColor colorWithRed:r/255.0f green:g/255.0f blue:b/255.0f alpha:a]
+#define RGB(r,g,b) RGBA(r,g,b,1.0f)
+
+#define NavTabColor  RGBA(137,110,57,1)
+#define BottomFontColor  RGBA(232,169,65,1)
+
+//
+#define ImgName(a) [UIImage imageNamed:a]
+
+// 获取屏幕大小
+#define DeviceWidth [UIScreen mainScreen].bounds.size.width
+#define DeviceHeight [UIScreen mainScreen].bounds.size.height
+#define BaseHeight  DeviceHeight/667
+#define BaseWidth   DeviceWidth/375
+
+
+#endif /* PrefixHeader_pch */

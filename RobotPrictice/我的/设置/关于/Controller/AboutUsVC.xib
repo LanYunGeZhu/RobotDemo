@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AboutUsVC">
+            <connections>
+                <outlet property="protocolTV" destination="Tji-vE-qxk" id="FME-i6-og7"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="Tji-vE-qxk">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <mutableString key="text">关于我们服务条款关于我们服务条款关于我们服务条款关于我们服务条款关于我们服务条款关于我们服务条款关于我们服务条款关于我们服务条款关于我们服务条款关于我们服务条款关于我们服务条款关于我们服务条款关于我们服务条款关于我们服务条款关于我们服务条款关于我们服务条款关于我们服务条款关于我们服务条款关于我们服务条款关于我们服务条款关于我们服务条款关于我们服务条款关于我们服务条款关于我们服务条款关于我们服务条款关于我们服务条款关于我们服务条款关于我们服务条款关于我们服务条款关于我们服务条款关于我们服务条款关于我们服务条款关于我们服务条款关于我们服务条款关于我们服务条款关于我们服务条款关于我们服务条款关于我们服务条款关于我们服务条款关于我们服务条款关于我们服务条款关于我们服务条款关于我们服务条款关于我们服务条款关于我们服务条款关于我们服务条款关于我们服务条款关于我们服务条款关于我们服务条款关于我们服务条款关于我们服务条款关于我们服务条款关于我们服务条款关于我们服务条款关于我们服务条款关于我们服务条款关于我们服务条款关于我们服务条款关于我们服务条款关于我们服务条款关于我们服务条款关于我们服务条款关于我们服务条款关于我们服务条款关于我们服务条款</mutableString>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                </textView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="Tji-vE-qxk" secondAttribute="bottom" id="2Yo-Du-Sh5"/>
+                <constraint firstItem="Tji-vE-qxk" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="Uz8-yJ-d3S"/>
+                <constraint firstItem="Tji-vE-qxk" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="YMW-A7-OuP"/>
+                <constraint firstAttribute="trailing" secondItem="Tji-vE-qxk" secondAttribute="trailing" id="dtF-VP-S9J"/>
+            </constraints>
+        </view>
+    </objects>
+</document>
